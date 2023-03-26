@@ -1,0 +1,1 @@
+recurse through subdirectories until finding a directory smaller than `TARGET_SIZE`, then choose either that directory or its parent directory, depending on which is closer to `TARGET_SIZE`. Then, compress all those subdirectories to .7z format and remove the original directories
